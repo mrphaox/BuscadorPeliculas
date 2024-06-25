@@ -1,3 +1,9 @@
+# Buscador de Películas
+
+## Descripción
+
+Buscador de Películas es una aplicación web que permite buscar información sobre películas utilizando la API de OMDb. Los usuarios pueden ingresar el título de una película y obtener una lista de resultados con detalles como el título, año de lanzamiento y póster de la película.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -20,7 +26,33 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Características
+
+- Búsqueda de películas por título.
+- Visualización de detalles de las películas como título, año de lanzamiento y póster.
+- Diseño responsivo utilizando TailwindCSS.
+- Paginación para manejar grandes volúmenes de resultados.
+
+## Tecnologías Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [OMDb API](http://www.omdbapi.com/)
+
+## Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado [Node.js](https://nodejs.org/en/) en tu máquina.
+
+## Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/mrphaox/buscador_de_peliculas.git
+   cd buscador_de_peliculas
+
 
 To learn more about Next.js, take a look at the following resources:
 
