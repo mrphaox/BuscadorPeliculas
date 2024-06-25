@@ -60,14 +60,19 @@
           <h1 className="text-3xl font-bold ml-4">Movie Search</h1>
         </div>
         <SearchBar onSearch={handleSearchSubmit} />
+        <div className="px-56">
         <MovieList movies={movies} />
         <br />
+        </div>
+        <br/>
         <Pagination
           currentPage={page}
+          
           totalResults={totalResults}
           resultsPerPage={10}
           onPageChange={handlePageChange}
         />
+        <br/> 
         <Footer/>
       </div>
     );
